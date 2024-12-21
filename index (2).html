@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>康文昌的在线HTML 教学小工具</title>
+    <style>  
+      body {
+        
+        margin: 0;
+        padding 40px;
+      }
+    </style>
+  </head>
+  <h><font size = "5">欢迎来到我的网址 </font></h>
+  <div style = "
+   background-color: #888888;
+   width 30px;
+   padding 40px;
+   height 40px;
+   text-align:center;
+   padding :40px;" >  
+     <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.7dqzHwiYYF-BSgfoGniYOwHaDu?rs=1&pid=ImgDetMain/logo.png" alt="Joe">
+   </div>
+   <body>
+    <b> 我是yijiuya！</b>
+    <b> &yen100000000(都是假的);</b>
+    <div style = "
+   max-width:700px
+   margin :30px auto;
+   ">
+    <p style="background-color:rgba(0,255,255,0.5)">这是学习HTML的第一天</p>
+    <p style="background-color:rgba(0,255,255,0.5)"> 之前总把html想成（好tm冷）就感脚有点想笑</p>
+    </div>
+     <div id="menu" style="background-color:#FFD700;height:20px;width:15px;float:left;">>  </div>
+   <button type="button" onclick="myFunction()">click it！</button>
+   <p><b>什么都不会发生...</b></p>
+   <p><font size = "1"> 因为我还不会。</font></p>
+  </body>
+ <body> 
+<div style="text-align:center"> 
+  <button onclick="playPause()">播放/暂停</button> 
+  <button onclick="makeBig()">放大</button>
+  <button onclick="makeSmall()">缩小</button>
+  <button onclick="makeNormal()">普通</button>
+  <br> 
+  <video id="video1" width="420">
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    您的浏览器不支持 HTML5 video 标签。
+  </video>
+</div> 
+
+<script> 
+var myVideo=document.getElementById("video1"); 
+
+function playPause()
+{ 
+	if (myVideo.paused) 
+	  myVideo.play(); 
+	else 
+	  myVideo.pause(); 
+} 
+
+	function makeBig()
+{ 
+	myVideo.width=560; 
+} 
+
+	function makeSmall()
+{ 
+	myVideo.width=320; 
+} 
+
+	function makeNormal()
+{ 
+	myVideo.width=420; 
+} 
+</script> 
+</body> 
+  <form action="demo_form.php" method="post/get">
+<input type="text" name="email" size="40" maxlength="50">
+<input type="password">
+<input type="checkbox" checked="checked">
+<input type="radio" checked="checked">
+<input type="submit" value="Send">
+<input type="reset">
+<input type="hidden">
+<select>
+<option>苹果</option>
+<option selected="selected">香蕉</option>
+<option>樱桃</option>
+</select>
+<textarea name="comment" rows="30" cols="10"></textarea>
+</form>
+<p>我也不知道这是什么，复制来的</p>
+  
+
+  
+</html>
